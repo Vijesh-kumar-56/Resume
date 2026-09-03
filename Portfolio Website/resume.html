@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <div class="resume-card" id="resumeCard">
+        <!-- top bar with theme toggle -->
+        <div class="top-bar">
+            <div class="theme-actions">
+                <button type="button" class="theme-toggle" id="printResume" aria-label="Print resume" title="Print resume">
+                    <i class="fas fa-print"></i>
+                </button>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- main grid -->
+        <div class="resume-grid">
+            <!-- LEFT SIDEBAR -->
+            <aside class="sidebar">
+                <div class="avatar">
+                    <!-- using a placeholder avatar (Font Awesome user-circle) -->
+                    <!-- <div
+                        class="legacy-inline-2">
+                       <i class="fas fa-user-circle" class="legacy-inline-3"></i>
+                    </div> -->
+                    <img src="WhatsApp Image 2026-09-03 at 3.15.26 PM.jpeg" alt="Vijesh">
+                    <h2>Vijesh Kumar</h2>
+                    <span class="title">Frontend Developer · CS Undergraduate</span>
+                </div>
+
+                <div class="info-section">
+                    <h3><i class="fas fa-address-card section-icon"></i> Contact</h3>
+                    <div class="info-item"><i class="fas fa-phone-alt"></i> 03473515338 </div>
+                    <div class="info-item"><i class="fas fa-envelope"></i> <a href="mailto:chohanvijay738@gmail.com"
+                            class="contact-link">chohanvijay738@gmail.com</a></div>
+                    <div class="info-item"><i class="fas fa-map-marker-alt"></i> Pakistan, Karachi</div>
+                    <div class="info-item"><i class="fab fa-linkedin"></i> <a
+                            href="https://www.linkedin.com/in/vijeshkumar" target="_blank" rel="noopener"
+                            class="contact-link">linkedin.com/in/vijeshkumar</a></div>
+                    <div class="info-item"><i class="fab fa-github"></i> <a href="https://github.com/vijeshkumar"
+                            target="_blank" rel="noopener" class="contact-link">github.com/vijeshkumar</a></div>
+                </div>
+
+                <div class="info-section">
+                    <h3><i class="fas fa-code"></i> Skills</h3>
+                    <div>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">UI/UX Basics</span>
+                    </div>
+                </div>
+
+                <div class="info-section">
+                    <h3><i class="fas fa-globe"></i> Languages</h3>
+                    <div class="lang-item"><span>English</span> <span>Good</span></div>
+                    <div class="lang-item"><span>Urdu</span> <span>Fluent</span></div>
+                    <div class="lang-item"><span>Sindhi</span> <span>Fluent</span></div>
+                </div>
+            </aside>
+
+            <!-- RIGHT MAIN CONTENT -->
+            <main class="main-content">
+                <!-- Profile -->
+                <h3><i class="fas fa-user"></i> Profile</h3>
+                <p class="profile-text">Computer Science undergraduate and aspiring Frontend Developer with hands-on
+                    experience in HTML, CSS, JavaScript, C++, and Python. I enjoy building clean, responsive,
+                    user-friendly interfaces and continuously improving my design and coding skills.</p>
+
+                <div class="separator"></div>
+
+                <!-- Career Objective -->
+                <h3><i class="fas fa-bullseye"></i> Career Objective</h3>
+                <p class="profile-text">To contribute my frontend development skills in a dynamic team environment where I can create responsive, accessible, and visually engaging web experiences while continuing to learn and grow professionally.</p>
+
+                <!-- Projects -->
+                <h3><i class="fas fa-code"></i> Projects</h3>
+
+                <div class="exp-item">
+                    <h4>YouTube Clone</h4>
+                    <div class="sub"><span>HTML · CSS · JavaScript</span> <span>Personal Project</span></div>
+                    <p>Designed a YouTube-inspired interface with a responsive layout, navigation bar, video cards, and reusable styling patterns.</p>
+                    <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">View project</a>
+                </div>
+
+                <div class="exp-item">
+                    <h4>BMI Calculator</h4>
+                    <div class="sub"><span>HTML · CSS · JavaScript</span> <span>Personal Project</span></div>
+                    <p>Built an interactive BMI calculator with form validation, logic-based results, and a simple user-driven experience.</p>
+                    <a class="project-link" href="http://127.0.0.1:5502/project2-BMI-Calculator.html" target="_blank" rel="noopener noreferrer">Open BMI Calculator</a>
+                </div>
+
+                <div class="exp-item">
+                    <h4>Responsive Landing Page</h4>
+                    <div class="sub"><span>HTML · CSS</span> <span>Personal Project</span></div>
+                    <p>Developed a mobile-friendly landing page using flexible layouts, hero sections, and clear call-to-action elements.</p>
+                    <a class="project-link" href="http://127.0.0.1:5501/task1.html" target="_blank" rel="noopener noreferrer">Open landing page</a>
+                </div>
+
+                <div class="exp-item">
+                    <h4>Interactive Resume</h4>
+                    <div class="sub"><span>HTML · CSS · JavaScript</span> <span>Personal Project</span></div>
+                    <p>Created a polished interactive resume with dark mode, responsive design, and practical form validation features.</p>
+                    <a class="project-link" href="http://127.0.0.1:5500/resume.html" target="_blank" rel="noopener noreferrer">Open resume</a>
+                </div>
+
+
+                <!-- Education -->
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="edu-item">
+                    <h4>BS Computer Science</h4>
+                    <div class="meta">Muhammad Ali Jinnah University · Expected Graduation: 2028</div>
+                </div>
+
+                <div class="edu-item">
+                    <h4>Frontend Development</h4>
+                    <div class="meta">Currently learning HTML, CSS, JavaScript & responsive web development</div>
+                </div>
+
+
+
+                <!-- interactive form (JavaScript) -->
+                <div class="contact-form" id="contactForm">
+                    <h4><i class="fas fa-paper-plane"></i> Quick message</h4>
+                    <div class="form-row">
+                        <input type="text" id="nameInput" placeholder="Your name" aria-label="Your name">
+                        <input type="email" id="emailInput" placeholder="Email address" aria-label="Email address">
+                        <button type="button" id="sendBtn"><i class="fas fa-envelope"></i> Send</button>
+                    </div>
+                    <div id="formFeedback"></div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    
+<script src="script.js"></script>    
+
+</body>
+
+</html>
