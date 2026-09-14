@@ -1,3 +1,4 @@
+
 (function () {
     "use strict";
 
@@ -101,3 +102,4 @@
     // small extra: focus effect on theme toggle accessible
     console.log('Resume with interactive theme & contact form ready.');
 })();
+
